@@ -14,10 +14,6 @@ const ContributorSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    createdAt: {
-      type: Date,
-      default: Date.now,
-    },
   },
   { _id: false }
 );
@@ -34,10 +30,6 @@ const PullRequestSchema = new mongoose.Schema({
   responsable: {
     type: String,
     required: true,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
   },
 },
 { _id: false });
