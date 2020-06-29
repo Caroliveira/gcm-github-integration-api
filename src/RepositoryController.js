@@ -27,4 +27,13 @@ module.exports = {
       return res.status(status).send();
     }
   },
+
+  async delete(req, res) {
+    try {
+      await Product.findByIdAndDelete(req.params.id);
+      return res.send();
+    } catch (err) {
+      return res.status(status).send();
+    }
+  }
 };
