@@ -8,8 +8,6 @@ Para rodar esse programa é necessário:
 
 ↦ Possuir instalado, e rodando, a versão mais recente do MongoDB (configurado na porta padrão);
 
-↦ Fazer o clone ou download do front-end dessa aplicação e seguir os passos do README.md, https://github.com/Caroliveira/gcm-github-integration-app.
-
 ## Instalação
 
 Após clonar, ou fazer o download, deste projeto, abrir o terminal na pasta do projeto e digitar os seguintes comandos:
@@ -19,3 +17,7 @@ Após clonar, ou fazer o download, deste projeto, abrir o terminal na pasta do p
 ↦ npm run dev
 
 O servidor estará rodando em http://localhost:3001.
+
+### Observação
+
+Este projeto está vinculado ao https://github.com/Caroliveira/gcm-github-integration-app.
