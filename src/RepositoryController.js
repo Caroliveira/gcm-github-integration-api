@@ -30,7 +30,7 @@ module.exports = {
 
   async delete(req, res) {
     try {
-      await Product.findByIdAndDelete(req.params.id);
+      await Repository.findByIdAndDelete(req.params.id);
       return res.send();
     } catch (err) {
       return res.status(status).send();
